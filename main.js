@@ -3,96 +3,96 @@
    video.type: "short" | "youtube" | "local" | "dual-short"
    ═══════════════════════════════════════════════════════════════════════ */
 var games = [
-  {
-    title: "Apocalypse Drifter",
-    theme: "strategy",
-    genres: ["Backpack Battler", "Auto-Battle", "Roguelite"],
-    desc: "A post-apocalyptic backpack battler where players strategically organize, merge, and upgrade items inside their inventory to build powerful combat synergies. Every placement decision matters as players optimize their loadout to survive increasingly dangerous enemies.",
-    video: { type: "short", id: "ZDZJFItD8kM" }
-  },
-  {
-    title: "Character Sort",
+  /* 0 */ {
+    title: "Merged Diamond",
     theme: "casual",
-    genres: ["Casual Puzzle", "Sorting Puzzle"],
-    desc: "A relaxing sorting puzzle where players group characters based on shared visual traits and categories. From animals and hairstyles to clothing colors, players must identify patterns and organize avatars into matching rows.",
-    video: { type: "short", id: "wEwscfsFBj8" }
+    genres: ["Merge Puzzle", "Physics Puzzle", "Casual Strategy"],
+    desc: "Designed, coded, and shipped solo. A physics-based merge puzzle where silver, gold, and diamond blocks fall onto the board. Players destroy blocks to score and position falling pieces to form larger rectangles that auto-merge into higher-value formations. Game design, programming, art direction, and UI built end-to-end by one person.",
+    video: { type: "dual-short", ids: ["E1VbVanAXpo", "t0oodF6Itas"], labels: ["Gameplay", "Trailer"] }
   },
-  {
-    title: "Clue Domino",
-    theme: "puzzle",
-    genres: ["Logic Puzzle", "Tile Placement"],
-    desc: "A hybrid puzzle combining logical deduction with domino placement. Players use category-based clues to group matching characters while fitting domino-shaped pieces into the board, creating a unique blend of reasoning and spatial problem-solving.",
-    video: { type: "short", id: "weWZ-GwEbIE" }
-  },
-  {
+  /* 1 */ {
     title: "Cluedoku",
     theme: "detective",
     genres: ["Logic Puzzle", "Sudoku-Inspired", "Detective"],
     desc: "A detective-inspired logic puzzle merging Sudoku mechanics with mystery solving. Players analyze clues to determine the correct position of every character, ensuring each row and column contains only one unique character.",
     video: { type: "short", id: "qFZuIl-Z6Sc" }
   },
-  {
-    title: "Flower Chain",
-    theme: "casual",
-    genres: ["Casual Puzzle", "Color Matching"],
-    desc: "A colorful puzzle where players drag and connect chains of flowers to their corresponding colored slots. The challenge comes from managing chain lengths, movement paths, and increasingly complex board layouts.",
-    video: { type: "short", id: "JJ5R6zJ-xzE" }
-  },
-  {
+  /* 2 */ {
     title: "Scene Match",
     theme: "puzzle",
     genres: ["Logic Puzzle", "Deduction"],
     desc: "A clue-based deduction puzzle where players place characters into predefined locations within a scene. By interpreting hints and contextual clues, players gradually uncover where everyone belongs.",
     video: { type: "short", id: "deBMqJm8cjw" }
   },
-  {
-    title: "Match Line",
-    theme: "puzzle",
-    genres: ["Time Management", "Sorting Puzzle"],
-    desc: "A fast-paced sorting challenge featuring a constantly moving conveyor belt of characters. Players must quickly identify shared categories and sort matching avatars into the correct containers before time runs out.",
-    video: { type: "short", id: "nwwM5KCMNhk" }
-  },
-  {
+  /* 3 */ {
     title: "Rush Tank",
     theme: "action",
     genres: ["Action", "Shooter", "Upgrade Runner"],
     desc: "An action-packed tank combat game where players collect upgrade crates during battle to enhance weapons and firepower. Strategic upgrade choices allow players to build increasingly destructive tanks capable of overwhelming enemy forces.",
     video: { type: "short", id: "YdzmXmCox1Y" }
   },
-  {
+  /* 4 */ {
+    title: "Apocalypse Drifter",
+    theme: "strategy",
+    genres: ["Backpack Battler", "Auto-Battle", "Roguelite"],
+    desc: "A post-apocalyptic backpack battler where players strategically organize, merge, and upgrade items inside their inventory to build powerful combat synergies. Every placement decision matters as players optimize their loadout to survive increasingly dangerous enemies.",
+    video: { type: "short", id: "ZDZJFItD8kM" }
+  },
+  /* 5 */ {
+    title: "Character Sort",
+    theme: "casual",
+    genres: ["Casual Puzzle", "Sorting Puzzle"],
+    desc: "A relaxing sorting puzzle where players group characters based on shared visual traits and categories. From animals and hairstyles to clothing colors, players must identify patterns and organize avatars into matching rows.",
+    video: { type: "short", id: "wEwscfsFBj8" }
+  },
+  /* 6 */ {
+    title: "Clue Domino",
+    theme: "puzzle",
+    genres: ["Logic Puzzle", "Tile Placement"],
+    desc: "A hybrid puzzle combining logical deduction with domino placement. Players use category-based clues to group matching characters while fitting domino-shaped pieces into the board, creating a unique blend of reasoning and spatial problem-solving.",
+    video: { type: "short", id: "weWZ-GwEbIE" }
+  },
+  /* 7 */ {
+    title: "Flower Chain",
+    theme: "casual",
+    genres: ["Casual Puzzle", "Color Matching"],
+    desc: "A colorful puzzle where players drag and connect chains of flowers to their corresponding colored slots. The challenge comes from managing chain lengths, movement paths, and increasingly complex board layouts.",
+    video: { type: "short", id: "JJ5R6zJ-xzE" }
+  },
+  /* 8 */ {
+    title: "Match Line",
+    theme: "puzzle",
+    genres: ["Time Management", "Sorting Puzzle"],
+    desc: "A fast-paced sorting challenge featuring a constantly moving conveyor belt of characters. Players must quickly identify shared categories and sort matching avatars into the correct containers before time runs out.",
+    video: { type: "short", id: "nwwM5KCMNhk" }
+  },
+  /* 9 */ {
     title: "Solitaire Sort",
     theme: "strategy",
     genres: ["Solitaire", "Card Puzzle", "Sorting"],
     desc: "A fresh twist on classic Solitaire that replaces traditional card suits with character categories. Players reorganize and group matching avatars while maintaining the familiar strategic decision-making of Solitaire gameplay.",
     video: { type: "short", id: "eA6R9uSOKCY" }
   },
-  {
+  /* 10 */ {
     title: "Star Detective",
     theme: "detective",
     genres: ["Detective Puzzle", "Social Deduction", "Logic Puzzle"],
     desc: "A social deduction puzzle where every character provides clues about others. Some clues reveal allies and suspects, while others are misleading. Players must carefully analyze all information to identify every hidden villain.",
     video: { type: "short", id: "UuTYV3zf-kg" }
   },
-  {
+  /* 11 */ {
     title: "Tile Jam",
     theme: "puzzle",
     genres: ["Sliding Puzzle", "Logic Puzzle", "Match Puzzle"],
     desc: "A puzzle combining sliding mechanics with category matching. Players identify related characters, then strategically slide tiles across the board to align matching groups and complete each level.",
     video: { type: "short", id: "_0IszTkUhKU" }
   },
-  {
+  /* 12 */ {
     title: "Infinity Space Shooter",
     theme: "action",
     genres: ["Arcade Shooter", "Space Shooter", "Action"],
     desc: "An endless space shooter focused on deep weapon customization. Players can freely invest in and upgrade nearly every weapon attribute, creating unique builds while battling waves of enemies across an infinite battlefield.",
     video: { type: "youtube", id: "M3MP9JeQCCI" }
-  },
-  {
-    title: "Merged Diamond",
-    theme: "casual",
-    genres: ["Merge Puzzle", "Physics Puzzle", "Casual Strategy"],
-    desc: "A physics-based merge puzzle where silver, gold, and diamond blocks continuously fall onto the board. Players destroy blocks to earn points, while strategically positioning falling pieces to create larger rectangular formations that automatically merge into more valuable blocks.",
-    video: { type: "dual-short", ids: ["E1VbVanAXpo", "t0oodF6Itas"], labels: ["Gameplay", "Trailer"] }
   }
 ];
 
